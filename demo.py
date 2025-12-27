@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WhiskerNotes Demo Script
+kittyNotes Demo Script
 Demonstrates the core functionality without GUI
 """
 
@@ -9,19 +9,19 @@ from themes import Theme, CAT_MESSAGES
 
 def main():
     print("=" * 50)
-    print("🐱 WhiskerNotes - Demo Script")
+    print("🐱 kittyNotes - Demo Script")
     print("=" * 50)
     
     # Initialize database
     print("\n1. Initializing database...")
-    db = Database("demo_whiskernotes.db")
+    db = Database("demo_kittynotes.db")
     print("   ✓ Database initialized")
     
     # Create sample notes
     print("\n2. Creating sample notes...")
     note1_id = db.create_note(
-        "Welcome to WhiskerNotes", 
-        "This is your first note! WhiskerNotes is a cozy cat-themed notes app."
+        "Welcome to kittyNotes", 
+        "This is your first note! kittyNotes is a cozy cat-themed notes app."
     )
     print(f"   ✓ {CAT_MESSAGES['note_created']}")
     
@@ -51,7 +51,7 @@ def main():
     print("\n4. Updating a note...")
     db.update_note(
         note1_id,
-        "Welcome to WhiskerNotes (Updated)",
+        "Welcome to kittyNotes (Updated)",
         "This note has been updated! Auto-save keeps your changes safe."
     )
     print(f"   ✓ {CAT_MESSAGES['note_saved']}")
@@ -93,7 +93,7 @@ def main():
     
     # Cleanup demo database
     import os
-    os.remove("demo_whiskernotes.db")
+    os.remove("demo_kittynotes.db")
     print("\n🧹 Demo database cleaned up")
 
 if __name__ == "__main__":

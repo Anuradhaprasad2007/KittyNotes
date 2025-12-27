@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Database Management
+kittyNotes - Database Management
 Handles SQLite database operations for note persistence
 """
 
@@ -10,9 +10,9 @@ from typing import List, Dict, Optional
 
 
 class Database:
-    """SQLite database manager for WhiskerNotes"""
+    """SQLite database manager for kittyNotes"""
     
-    def __init__(self, db_path: str = "whiskernotes.db"):
+    def __init__(self, db_path: str = "kittynotes.db"):
         """Initialize database connection"""
         self.db_path = db_path
         self.init_database()

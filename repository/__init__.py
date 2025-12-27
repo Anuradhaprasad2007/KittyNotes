@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Repository Package
+kittyNotes - Repository Package
 Data access layer for the application
 """
 

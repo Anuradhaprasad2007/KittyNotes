@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Utilities Package
+kittyNotes - Utilities Package
 Helper utilities for the application
 """
 

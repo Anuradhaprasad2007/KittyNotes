@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Note Service
+kittyNotes - Note Service
 Business logic layer for note operations
 """
 

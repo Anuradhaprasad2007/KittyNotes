@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Main Application Entry Point
+kittyNotes - Main Application Entry Point
 A cozy cat-themed notes application with Python backend
 Enhanced architecture with service layer
 """
@@ -16,8 +16,8 @@ from utils.exceptions import ValidationError, NoteNotFoundError
 import os
 
 
-class WhiskerNotes(ctk.CTk):
-    """Main application class for WhiskerNotes"""
+class kittyNotes(ctk.CTk):
+    """Main application class for kittyNotes"""
     
     def __init__(self):
         """Initialize the application"""
@@ -232,7 +232,7 @@ class WhiskerNotes(ctk.CTk):
 
 def main():
     """Main entry point"""
-    app = WhiskerNotes()
+    app = kittyNotes()
     app.mainloop()
 
 

@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Validation Utilities
+kittyNotes - Validation Utilities
 Input validation for notes
 """
 

@@ -1,25 +1,25 @@
 """
-WhiskerNotes - Custom Exceptions
+kittyNotes - Custom Exceptions
 Application-specific exceptions
 """
 
 
-class WhiskerNotesError(Exception):
-    """Base exception for WhiskerNotes"""
+class kittyNotesError(Exception):
+    """Base exception for kittyNotes"""
     pass
 
 
-class ValidationError(WhiskerNotesError):
+class ValidationError(kittyNotesError):
     """Raised when validation fails"""
     pass
 
 
-class NoteNotFoundError(WhiskerNotesError):
+class NoteNotFoundError(kittyNotesError):
     """Raised when a note is not found"""
     pass
 
 
-class DatabaseError(WhiskerNotesError):
+class DatabaseError(kittyNotesError):
     """Raised when a database operation fails"""
     pass
 

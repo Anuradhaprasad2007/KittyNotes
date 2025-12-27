@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Editor Screen UI
+kittyNotes - Editor Screen UI
 Note editor with auto-save functionality and formatting toolbar
 """
 

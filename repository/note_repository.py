@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Note Repository
+kittyNotes - Note Repository
 Data access layer for note operations
 """
 

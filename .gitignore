@@ -27,7 +27,7 @@ wheels/
 *.db
 *.sqlite
 *.sqlite3
-whiskernotes.db
+kittynotes.db
 
 # IDE
 .vscode/

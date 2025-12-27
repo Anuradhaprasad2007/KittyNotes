@@ -1,5 +1,5 @@
 """
-WhiskerNotes UI Package
+kittyNotes UI Package
 Contains home and editor screen components
 """
 

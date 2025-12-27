@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Theme Configuration
+kittyNotes - Theme Configuration
 Defines color schemes and UI styling for light and dark modes
 Enhanced with modern design tokens
 """
@@ -8,7 +8,7 @@ import os
 
 
 class Theme:
-    """Central theme configuration for WhiskerNotes"""
+    """Central theme configuration for kittyNotes"""
     
     # Available accent colors with gradients
     ACCENT_COLORS = {
@@ -162,7 +162,7 @@ CAT_MESSAGES = {
     "note_created": "Purr! New note created 🐱",
     "no_notes": "No notes yet... your cat is waiting 🐱",
     "auto_saved": "Meow! Auto-saved 🐾",
-    "welcome": "Welcome to WhiskerNotes! 🐾",
+    "welcome": "Welcome to kittyNotes! 🐾",
     "error": "Oops! Something went wrong 😿",
     "note_pinned": "Note pinned to top! 📌🐾",
     "note_unpinned": "Note unpinned 🐾",

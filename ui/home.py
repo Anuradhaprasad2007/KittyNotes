@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Home Screen UI
+kittyNotes - Home Screen UI
 Dashboard displaying note cards with create, edit, delete functionality
 """
 

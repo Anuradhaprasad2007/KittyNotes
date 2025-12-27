@@ -1,5 +1,5 @@
 """
-WhiskerNotes - Configuration Service
+kittyNotes - Configuration Service
 Manages application configuration and settings
 """
 
