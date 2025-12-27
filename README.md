@@ -435,8 +435,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Not-Animesh**
-- GitHub: [@Not-Animesh](https://github.com/Not-Animesh)
-- Repository: [NotesApplication](https://github.com/Not-Animesh/NotesApplication)
+- GitHub: [@Anuradha Prasad](https://github.com/Anuradhaprasad2007)
+- Repository: [KittyNotes](https://github.com/Anuradhaprasad2007/KittyNotes)
 
 ---
 
